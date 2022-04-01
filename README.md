@@ -1,0 +1,2 @@
+# Monte Carlo simulation of Dijkstra's algorithm
+Here we are going to try to find the average shortest path in a 50 node graph with edge density ranging from 30 to 40 percent.\nWe are gonna do this by geneerating a random graph each time and try to find the distance from node 1 to node 2, then from node 1 to node 3, and so on.\nAfter all those distances are found out, we will simply find the mean of all the distance values.
